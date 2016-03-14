@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+    <data>
+        <template id="website_snippet_accordion" name="Snippet Accordion" inherit_id="website.snippets">
+            <xpath expr="//div[@id='snippet_content']">
+                <div>
+                    <div class="oe_snippet_thumbnail">
+                        <img src="/1st_snippet/static/description/icon.png"
+                             class="oe_snippet_thumbnail_img"/>
+                        <span class="oe_snippet_thumbnail_title">
+                            Accordion
+                        </span>
+                    </div>
+                    
+                    <section class="snippet_accordion">
+                        <div class="accordion">
+                            <div class="accordion-section">
+                                <a class="accordion-section-title" href="#">Accordion Section #1</a>
+                                 
+                                <div id="accordion-1" class="accordion-section-content">
+                                    <p>Test</p>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                </div>
+            </xpath>
+        </template>
+    </data>
+</openerp>
